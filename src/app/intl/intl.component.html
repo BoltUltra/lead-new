@@ -1,0 +1,425 @@
+<main class="font-opensans">
+  <section class="hero md:px-20 px-3 text-sm">
+    <nav class="flex items-center justify-between text-white pt-5">
+      <img src="../../assets/images/logo.svg" alt="logo" class="md:w-auto w-64">
+      <div class="md:flex hidden items-center space-x-5">
+        <select name="tutors" id="tutors" class="bg-transparent">
+          <option>Meet Our Tutors</option>
+          <option>Meet Our Tutors</option>
+          <option>Meet Our Tutors</option>
+          <option>Meet Our Tutors</option>
+        </select>
+        <a href="#!" class="text-white no-underline">Our Core Features</a>
+      </div>
+      <button class="bg-white text-secondary-intl rounded-full px-4 py-2 font-semibold md:block hidden">Set up
+        session</button>
+
+      <button class="md:hidden" (click)="toggleMenu()">
+        <i class="fa-thin fa-bars fa-2x"></i>
+      </button>
+    </nav>
+
+    <div class="md:hidden bg-white/25 py-20 text-center space-y-5" *ngIf="isMenuOpen">
+      <div class="flex flex-col items-center space-y-5">
+        <select name="tutors" id="tutors" class="bg-transparent">
+          <option>Meet Our Tutors</option>
+          <option>Meet Our Tutors</option>
+          <option>Meet Our Tutors</option>
+          <option>Meet Our Tutors</option>
+        </select>
+        <a href="#!" class="text-white no-underline">Our Core Features</a>
+      </div>
+      <button class="bg-white text-secondary-intl rounded-full px-4 py-2 font-semibold">Set up session</button>
+    </div>
+
+    <div class="grid md:grid-cols-2 text-white mt-56 items-center md:gap-0 gap-32">
+      <div class="space-y-5 md:pr-20 md:text-left text-center">
+        <h3 class="font-bold text-5xl leading-snug">Empower your learning journey</h3>
+        <p>Connect with Expert Tutors online</p>
+        <button class="bg-white text-primary-intl rounded-full px-6 py-3 font-semibold">Schedule a Demo</button>
+      </div>
+      <div class="">
+        <img src="../../assets/images/hero.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="md:px-20 px-5 relative md:space-y-20 space-y-10 py-20">
+    <h3 class="text-center font-bold md:text-3xl text-2xl">Experience the Uniqueness of LEADlearning</h3>
+    <div class="grid md:grid-cols-3 md:gap-40 gap-10">
+      <div class="flex flex-col space-y-3 items-center text-center">
+        <img src="../../assets/images/daily-feedback-intl.svg" alt="">
+        <div class="space-y-2">
+          <h4 class="font-bold">Daily Feedback</h4>
+          <p>Stay on track with our daily post-session feedback. We believe in keeping everyone involved and adaptable,
+            making real-time interventions for continuous improvement.</p>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-3 items-center text-center">
+        <img src="../../assets/images/monthly-strategy-evaluation-intl.svg" alt="">
+        <div class="space-y-2">
+          <h4 class="font-bold">Monthly Strategy Evaluation</h4>
+          <p>We are committed to your growth. Our program manager conducts monthly evaluations to fine-tune strategies,
+            ensuring your progress remains on the right track.</p>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-3 items-center text-center">
+        <img src="../../assets/images/qualified-tutors-intl.svg" alt="">
+        <div class="space-y-2">
+          <h4 class="font-bold">Qualified Tutors</h4>
+          <p>Our tutors blend pedagogical expertise with digital tools to create an exceptional learning experience.
+            They mentor and teach with passion, ensuring you get the best support.</p>
+        </div>
+      </div>
+    </div>
+    <img src="../../assets/images/experience-intl.svg" alt="" class="absolute bottom-0 left-0 w-20">
+  </section>
+
+  <section class="cta flex items justify-center md:px-20 px-5 py-20">
+    <div
+      class="flex md:flex-row flex-col justify-between items-center w-full md:text-left text-center md:space-y-0 space-y-5">
+      <div class="max-w-xl space-y-3 relative">
+        <h4 class="font-bold text-2xl">Elevate your learning experience at LEADlearning</h4>
+        <p>Join us today and embark on a journey of empowerment, knowledge, and success. Your potential, our commitment!
+        </p>
+        <img src="../../assets/images/rocket-icon.svg" alt="" class="absolute md:block hidden -top-12 -right-10 w-14">
+      </div>
+      <button class="bg-primary-intl text-white rounded-full px-6 py-3 font-semibold">Schedule a Demo</button>
+    </div>
+  </section>
+  <section class="md:px-20 px-5 relative space-y-20 py-20">
+    <div class="space-y-3 md:max-w-3xl mx-auto text-center">
+      <h3 class="text-center font-bold text-3xl">Unlock Your Full Potential with Our Comprehensive Educational Programs!
+      </h3>
+      <p>At LEADlearning, we are dedicated to nurturing your educational journey.
+        Our diverse range of programs is designed to cater to your unique learning needs:</p>
+    </div>
+    <div class="grid md:grid-cols-3 md:gap-40 gap-10">
+      <div class="flex flex-col space-y-5 items-center text-center">
+        <img src="../../assets/images/in-course-support.svg" alt="">
+        <div class="space-y-2">
+          <h4 class="font-bold">In-Course Support</h4>
+          <p>Embark on a seamless educational journey with our unwavering support throughout your courses. Our
+            experienced tutors ensure you grasp every concept, turning challenges into stepping stones.</p>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-5 items-center text-center">
+        <img src="../../assets/images/academic-foundation.svg" alt="">
+        <div class="space-y-2">
+          <h4 class="font-bold">Academic Foundation</h4>
+          <p>Strengthen your core knowledge with our specialized programs, courses, and innovative methodologies.
+            Rebuild your foundations in any subject and set yourself up for success.</p>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-5 items-center text-center">
+        <img src="../../assets/images/examination.svg" alt="">
+        <div class="space-y-2">
+          <h4 class="font-bold">Examination Prep</h4>
+          <p>Conquer your exams with confidence! Our expert tutors excel in preparing you for renowned examinations such
+            as SAT, IGCESE, ACT, and more. We guide you through the process, equipping you with the skills you need to
+            excel.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="../../assets/images/unlock.svg" alt="" class="absolute bottom-0 right-0 w-20">
+  </section>
+
+
+  <section class="md:px-20 px-5 relative space-y-20 py-20 pricing-information">
+    <h3 class="text-center font-bold text-3xl">No hidden charges. View our pricing information</h3>
+    <div class="grid md:grid-cols-3 md:gap-20 gap-10">
+      <div class="border-2 rounded-lg px-5 md:py-10 py-10 space-y-8">
+        <div class="text-center space-y-1">
+          <h3 class="text-3xl font-bold">60 mins</h3>
+          <p>price per session</p>
+        </div>
+        <hr>
+        <div class="space-y-5">
+          <div class="flex items-center justify-between">
+            <p>Upper elementary</p>
+            <p>$20</p>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>Middle school</p>
+            <div class="flex flex-col items-center">
+              <p>$23</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>High school</p>
+            <div class="flex flex-col items-center">
+              <p>$28</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>A levels</p>
+            <div class="flex flex-col items-center">
+              <p>$28</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>University</p>
+            <div class="flex flex-col items-center">
+              <p>$32</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between text-primary-intl font-bold">
+            <p>Registration and Diagonstic</p>
+            <p>Free</p>
+          </div>
+        </div>
+      </div>
+      <div class="border-2 rounded-lg px-5 md:py-10 py-10 space-y-8">
+        <div class="text-center space-y-1">
+          <h3 class="text-3xl font-bold">90 mins</h3>
+          <p>price per session</p>
+        </div>
+        <hr>
+        <div class="space-y-5">
+          <div class="flex items-center justify-between">
+            <p>Upper elementary</p>
+            <div class="flex flex-col items-center">
+              <p>$20</p>
+              <span class="text-xs">(Optimal)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>Middle school</p>
+            <div class="flex flex-col items-center">
+              <p>$34</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>High school</p>
+            <div class="flex flex-col items-center">
+              <p>$38</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>A levels</p>
+            <div class="flex flex-col items-center">
+              <p>$38</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>University</p>
+            <div class="flex flex-col items-center">
+              <p>$48</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between text-primary-intl font-bold">
+            <p>Registration and Diagonstic</p>
+            <p>Free</p>
+          </div>
+        </div>
+      </div>
+      <div class="border-2 rounded-lg px-5 md:py-10 py-10 space-y-8">
+        <div class="text-center space-y-1">
+          <h3 class="text-3xl font-bold">120 mins</h3>
+          <p>price per session</p>
+        </div>
+        <hr>
+        <div class="space-y-5">
+          <div class="flex items-center justify-between">
+            <p>Upper elementary</p>
+            <div class="flex flex-col items-center">
+              <p>$35</p>
+              <span class="text-xs text-transparent">placeholder</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>Middle school</p>
+            <div class="flex flex-col items-center">
+              <p>$42</p>
+              <span class="text-xs">(Optimal)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>High school</p>
+            <div class="flex flex-col items-center">
+              <p>$47</p>
+              <span class="text-xs">(Optimal)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>A levels</p>
+            <div class="flex flex-col items-center">
+              <p>$47</p>
+              <span class="text-xs">(Optimal)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between">
+            <p>University</p>
+            <div class="flex flex-col items-center">
+              <p>$56</p>
+              <span class="text-xs">(Optimal)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between text-primary-intl font-bold">
+            <p>Registration and Diagonstic</p>
+            <p>Free</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center md:text-base text-sm">**For multiple students in the same session, fees of the oldest student
+      is paid in full and a
+      50% discount for
+      the
+      second student.</p>
+    <img src="../../assets/images/pricing.svg" alt="" class="absolute bottom-0 left-0 w-20">
+  </section>
+
+  <section class="md:px-20 px-5 relative space-y-10 pt-20 md:py-0 py-10 bg-[#F3ECFC]">
+    <div class="grid md:grid-cols-2 md:gap-0 gap-5 items-center">
+      <div class="relative">
+        <img src="../../assets/images/olayinka.svg" alt="" class="mx-auto">
+        <div class="absolute top-10 left-0">
+          <h3 class="font-bold">Olayinka Tedimola</h3>
+          <small>Director</small>
+        </div>
+      </div>
+      <div class="space-y-5 text-sm leading-relaxed">
+        <h3 class="text-2xl font-bold">Greetings,</h3>
+        <p>I am Olayinka Tedimola, and it is my pleasure to welcome you to LEADlearning.</p>
+        <p>LEADlearning has a mission to provide unparalleled learning experiences to students across the range of grade
+          levels and
+          disciplines. With a wealth of knowledge and expertise spanning over a decade, we have dedicated ourselves to
+          creating
+          systems and programs that ensure the overall academic health of our students. <br>
+          I extend a warm invitation to you to book a demo session with us. During this session, we can delve into your
+          individual
+          interests, goals, and aspirations.We are eager to understand your unique needs and discuss how we can assist
+          you in
+          reaching your educational objectives. Together, we can embark on a journey of knowledge and growth. <br>
+          Thank you for considering our tutoring services, and I look forward to the opportunity to work closely with
+          you.
+        </p>
+        <p>Warm regards,</p>
+        <button class="bg-primary-intl text-white rounded-full px-6 py-3 font-semibold">Schedule a Demo</button>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="md:px-20 px-5 relative space-y-10 py-20 testimonials text-white">
+    <div class="flex w-full items-center space-x-5 text-sm">
+      <div class="h-[0.2px] bg-white w-full"></div>
+      <p>TESTIMONIALS</p>
+      <div class="h-[0.2px] bg-white w-full"></div>
+    </div>
+    <h3 class="text-center font-bold text-3xl">What our fantastic students say</h3>
+    <div class="grid md:grid-cols-3 md:gap-5 gap-10">
+      <div *ngFor="let testimonial of testimonials" class="border rounded-2xl">
+        <div>
+          <div class="testimonial-content p-5 space-y-5 flex flex-col justify-between h-full">
+            <img [src]="'../../assets/images/' + testimonial.image" alt="{{ testimonial.name }}"
+              class="rounded-full w-20 border-2 p-1">
+            <p class="text-sm">{{ testimonial.testimonial }}</p>
+            <div class="leading-tight">
+              <h3 class="font-bold">{{ testimonial.name }}</h3>
+              <small class="text-xs">{{ testimonial.title }}</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="md:px-20 px-5 relative space-y-10 py-20">
+    <h3 class="text-left font-extrabold md:text-4xl text-3xl underline text-primary-intl underline-offset-4">FAQs</h3>
+    <div>
+      <cdk-accordion>
+        <cdk-accordion-item *ngFor="let item of faqItems; let index = index;" #accordionItem="cdkAccordionItem"
+          [attr.aria-expanded]="index === expandedIndex" [attr.aria-controls]="'accordion-body-' + index">
+          <div class="border py-5 rounded-xl px-3 hover:bg-primary-intl/25 cursor-pointer mt-5"
+            (click)="setExpandedIndex(index)">
+            {{ item.question }}
+          </div>
+          <div class="pt-2" role="region" [style.display]="index === expandedIndex ? '' : 'none'"
+            [attr.aria-labelledby]="'accordion-header-' + index">
+            {{ item.answer }}
+          </div>
+        </cdk-accordion-item>
+      </cdk-accordion>
+    </div>
+    <img src="../../assets/images/faq.svg" alt="" class="absolute top-0 left-0 w-20">
+    <img src="../../assets/images/faq2.svg" alt="" class="absolute bottom-0 right-0 w-32">
+    <div class="text-center space-y-5 md:mt-10">
+      <p class="text-gray-400">Didn’t find your answers here? Just send us a message and we’ll help you in
+        no time.</p>
+      <button class="bg-primary-intl text-white rounded-full px-6 py-3 font-semibold">Schedule a Demo</button>
+    </div>
+  </section>
+
+  <footer class="bg-black md:px-20 px-5 text-white">
+    <div class="py-10 md:grid grid-cols-4 md:space-y-0 space-y-5">
+      <div class="col-span-2 space-y-10">
+        <div class="space-y-5">
+          <img src="../../assets/images/lead-logo.svg" alt="">
+          <div class="flex max-w-sm bg-white/25 p-1 rounded-full">
+            <input type="email" name="email" id="email" class="w-full bg-transparent outline-none text-sm px-2"
+              required>
+            <button class="bg-primary-intl text-black rounded-full px-7 py-3 text-sm font-semibold">Subscribe</button>
+          </div>
+          <p class="text-sm opacity-75">Be assured that we won’t spam you!</p>
+        </div>
+        <div class="space-y-5">
+          <h3 class="font-bold">Contact Us</h3>
+          <div class="space-y-3 text-[#B8B8B8] text-sm">
+            <div class="flex items-center space-x-3">
+              <i class="fa-duotone fa-envelope text-white fa-xl"></i>
+              <p>support@leadlearningng.com</p>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="fa-duotone fa-phone text-white fa-xl"></i>
+              <p>+234 905 490 9494</p>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="fa-brands fa-whatsapp text-white fa-xl"></i>
+              <p>+234 905 490 9494</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-5">
+        <h3 class="font-bold">Pages</h3>
+        <ul class="space-y-3 text-[#B8B8B8]">
+          <li><a href="#!">Home</a></li>
+          <li><a href="#!">Meet the team</a></li>
+          <li><a href="#!">Set up sessions</a></li>
+          <li><a href="#!">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="space-y-5">
+        <h3 class="font-bold">Resources</h3>
+        <ul class="space-y-3 text-[#B8B8B8]">
+          <li><a href="#!">About us</a></li>
+          <li><a href="#!">Blog</a></li>
+          <li><a href="#!">Pricing information</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="py-5 text-[#B8B8B8] space-x-5">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+
+    <div class="pb-5 text-center text-xs opacity-50 font-light">
+      <p>&copy; 2023 | Designed by Peace Chinonye | All Rights Reserved</p>
+    </div>
+  </footer>
+</main>

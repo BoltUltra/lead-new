@@ -1,0 +1,20 @@
+.hero {
+  background-image: url(../../assets/images/nig-hero.png);
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+}
+
+.cta {
+  background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(146, 175, 39, 0.215661) 40.86%, rgba(139, 171, 22, 0.235451) 44.6%, rgba(131, 166, 2, 0.26) 49.25%, rgba(139, 171, 23, 0.234677) 54.2%, rgba(217, 217, 217, 0) 100%);
+}
+
+.pricing-information {
+  background-image: url(../../assets/images/pricing-information.png);
+  background-size: contain;
+  background-position: center;
+}
+
+.testimonials {
+  background: linear-gradient(180deg, #39910E 0%, #2A4202 100%);
+}

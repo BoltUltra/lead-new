@@ -1,0 +1,20 @@
+.hero {
+  background-image: url(../../assets/images/intl-hero.png);
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+}
+
+.cta {
+  background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(151, 71, 255, 0.235451) 40.72%, rgba(151, 71, 255, 0.26) 50.44%, rgba(151, 71, 255, 0.29) 60.57%, rgba(217, 217, 217, 0) 100%);
+}
+
+.pricing-information {
+  background-image: url(../../assets/images/pricing-information.png);
+  background-size: contain;
+  background-position: center;
+}
+
+.testimonials {
+  background: linear-gradient(180deg, #8B3FEE 0%, #531A9C 86.26%);
+}
